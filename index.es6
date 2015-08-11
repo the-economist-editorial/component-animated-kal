@@ -1075,7 +1075,7 @@ export default class AnimatedKal extends React.Component {
         var match = navigator.userAgent.match(/(?:MSIE |Trident\/.*; rv:)(\d+)/);
         if (match){
         var matchVersion = parseInt(match[1]);
-        console.log(matchVersion);
+        // console.log(matchVersion);
       }
 
 
@@ -1089,11 +1089,11 @@ export default class AnimatedKal extends React.Component {
 
 
         if ("ontouchstart" in document.documentElement) { 
-          console.log('touch');
+          // console.log('touch');
             document.querySelector(".hint").innerHTML = 
                 "<p>Tap on the left or right to navigate</p>";
         }
-        console.log('no-touch');
+        // console.log('no-touch');
       });
 
     }
@@ -1101,16 +1101,13 @@ export default class AnimatedKal extends React.Component {
   render() {
      return(
           <div>
-            <div className="fullBackground"></div>
             <div className="fallback-message">
               <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
               <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
             </div>
-            <div id="over"></div>
             <div className="bg bg-surf-grad-light strut-surface">
               <div className="bg innerBg strut-slide-31 bg-surf-grad-light">
                 <div id="impress">
-                  <div className="main-area">
                     <div className="step past" data-state="strut-slide-0 bg-surf-grad-light " data-x="11414.186666666666" data-y="5022.72" data-scale="3" id="step-1">
                       <div className="slideContainer strut-slide-0">
                         <div className="componentContainer element-1">
@@ -1404,7 +1401,6 @@ export default class AnimatedKal extends React.Component {
                         </div>
                       </div>
                     </div>
-                  </div>
                 </div>
                 <div className="hint">
                 <p>Use a spacebar or arrow keys to navigate</p>
