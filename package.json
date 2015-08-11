@@ -1,0 +1,120 @@
+{
+  "name": "@economist/component-animated-kal",
+  "version": "1.0.0",
+  "description": "Animated KAL cartoon",
+  "author": "The Economist (http://economist.com)",
+  "license": "ISC",
+  "repository": "git@github.com:the-economist-editorial/component-animated-kal.git",
+  "homepage": "https://github.com/the-economist-editorial/component-animated-kal/wiki",
+  "bugs": "https://github.com/the-economist-editorial/component-animated-kal/issues",
+  "main": "index.js",
+  "files": [
+    "*.js",
+    "*.css",
+    "assets/*"
+  ],
+  "assets": [
+    "assets/21vw7st.png",
+    "assets/25nQkCX.jpg",
+    "assets/2FV35sg.jpg",
+    "assets/3ITYgiM.jpg",
+    "assets/789iioI.jpg",
+    "assets/8Afxsji.jpg",
+    "assets/8L9axSV.jpg",
+    "assets/8mYtM8S.jpg",
+    "assets/9pJEqx5.jpg",
+    "assets/aeJiyVW.jpg",
+    "assets/Da2YLgI.jpg",
+    "assets/DihBOb3.jpg",
+    "assets/DYGIn2a.jpg",
+    "assets/EM5q56V.jpg",
+    "assets/g2YSTXw.png",
+    "assets/ienaNSt.jpg",
+    "assets/ikQyOXB.jpg",
+    "assets/KH1TiH0.jpg",
+    "assets/mnxbO8p.jpg",
+    "assets/nV659P6.jpg",
+    "assets/oL1A1w8.jpg",
+    "assets/Qj4tpWh.jpg",
+    "assets/RNpfaVb.jpg",
+    "assets/THeCAyM.jpg",
+    "assets/tTSRpHm.jpg",
+    "assets/vcBIUre.jpg",
+    "assets/W4VC7KA.jpg",
+    "assets/WzBzrKe.jpg",
+    "assets/X5gK1Kn.jpg",
+    "assets/XbmPvZl.jpg",
+    "assets/YCGc6Vm.jpg",
+    "assets/zakeAjj.jpg",
+    "assets/zMbsd1s.jpg"
+  ],
+  "eslintConfig": {
+    "extends": "strict/react"
+  },
+  "component-devserver": {
+    "example": "./example.es6",
+    "css": [
+      "/node_modules/mocha/mocha.css",
+      "/index.css"
+    ],
+    "js": [
+      "/node_modules/react/react.js?browserify&expose=react",
+      {
+        "contents": "window.React = require('react');"
+      },
+      "/index.es6?babelify&debug&expose=index.es6&external=react",
+      "/example.es6?babelify&debug&expose=example.es6&external=react",
+      {
+        "contents": "require('react').render(require('example.es6'),document.getElementById('component-preview'));"
+      },
+      "/node_modules/mocha/mocha.js",
+      "/node_modules/@economist/component-testharness/node_modules/chai/chai.js",
+      "/node_modules/@economist/component-testharness/node_modules/chai-things/lib/chai-things.js",
+      "/node_modules/@economist/component-testharness/node_modules/chai-as-promised/lib/chai-as-promised.js",
+      "/node_modules/@economist/component-testharness/node_modules/chai-spies/chai-spies.js",
+      {
+        "contents": "chai.should();mocha.setup('bdd');"
+      },
+      "/test/index.es6?babelify&debug&external=react",
+      {
+        "contents": "mocha.checkLeaks();mocha.run();"
+      }
+    ],
+    "html": [
+      {
+        "contents": "<div class='component-panel'><h2 class='component-panel-heading'>Tests</h2><div id='mocha' class='test-output'></div></div>"
+      }
+    ]
+  },
+  "config": {
+    "lint_opts": "--ignore-path .gitignore --ext .es6"
+  },
+  "scripts": {
+    "lint": "eslint $npm_package_config_lint_opts .",
+    "prepublish": "babel index.es6 --stage=0 --loose > index.js",
+    "provision": "devpack-configure ./package.json",
+    "serve": "component-devserver .",
+    "test": "npm run test:base -- -R tap",
+    "test:base": "mocha -r babel/register -r @economist/component-testharness",
+    "test:watch": "npm run test:base -- -wR min"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "@economist/component-devpack": "^2.5.0",
+    "@economist/component-devserver": "^2.0.0",
+    "@economist/component-testharness": "^1.1.0",
+    "babel": "^5.5.8",
+    "eslint": "^0.24.0",
+    "eslint-config-strict": "^2.4.0",
+    "eslint-plugin-filenames": "^0.1.1",
+    "eslint-plugin-one-variable-per-var": "^0.0.3",
+    "eslint-plugin-react": "^2.6.3",
+    "mocha": "^2.2.5",
+    "pre-commit": "^1.0.10"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
