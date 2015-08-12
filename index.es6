@@ -1085,24 +1085,21 @@ export default class AnimatedKal extends React.Component {
           document.getElementsByTagName("body")[0].setAttributeNode(bodyclass);
       }
 
-
         if (document.getElementById('launched-placeholder'))
             loadPresentation();
 
         if (!window.presStarted && !match || (matchVersion > 11)) {
             startPres(document, window);
-            impress().init();   
+            impress().init();
         }
 
-
-        if ("ontouchstart" in document.documentElement) { 
+        if ("ontouchstart" in document.documentElement) {
           // console.log('touch');
-            document.querySelector(".hint").innerHTML = 
+            document.querySelector(".hint").innerHTML =
                 "<p>Tap on the left or right to navigate</p>";
         }
         // console.log('no-touch');
       });
-
     }
 
   render() {
