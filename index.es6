@@ -404,6 +404,7 @@ export default class AnimatedKal extends React.Component {
                   
                   body.classList.remove("impress-disabled");
                   body.classList.add("impress-enabled");
+                  body.classList.add("impress-test");
                   
                   // get and init steps
                   steps = $$(".step", root);
@@ -1116,7 +1117,7 @@ export default class AnimatedKal extends React.Component {
                       <div className="slideContainer strut-slide-0">
                         <div className="componentContainer element-1">
                           <div className="transformContainer">
-                            <img src="assets/THeCAyM.jpg" />
+                            <img src="/assets/THeCAyM.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1125,7 +1126,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-1">
                           <div className="componentContainer element-2">
                             <div className="transformContainer">
-                              <img src="assets/W4VC7KA.jpg" />
+                              <img src="/assets/W4VC7KA.jpg" />
                             </div>
                           </div>
                       </div>
@@ -1134,7 +1135,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-2">
                         <div className="componentContainer element-3">
                           <div className="transformContainer">
-                            <img src="assets/aeJiyVW.jpg" />
+                            <img src="/assets/aeJiyVW.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1143,7 +1144,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-3">
                         <div className="componentContainer element-4">
                           <div className="transformContainer">
-                            <img src="assets/oL1A1w8.jpg" />
+                            <img src="/assets/oL1A1w8.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1152,7 +1153,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-4">
                         <div className="componentContainer element-5">
                           <div className="transformContainer">
-                            <img src="assets/Qj4tpWh.jpg" />
+                            <img src="/assets/Qj4tpWh.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1161,7 +1162,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-5">
                         <div className="componentContainer element-6">
                           <div className="transformContainer">
-                            <img src="assets/9pJEqx5.jpg" />
+                            <img src="/assets/9pJEqx5.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1170,7 +1171,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-6">
                         <div className="componentContainer element-7">
                           <div className="transformContainer">
-                            <img src="assets/DYGln2a.jpg" />
+                            <img src="/assets/DYGln2a.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1179,7 +1180,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-7">
                         <div className="componentContainer element-8">
                           <div className="transformContainer">
-                            <img src="assets/789iioI.jpg" />
+                            <img src="/assets/789iioI.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1188,7 +1189,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-8">
                         <div className="componentContainer element-9">
                           <div className="transformContainer">
-                            <img src="assets/YCGc6Vm.jpg" />
+                            <img src="/assets/YCGc6Vm.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1197,7 +1198,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-9">
                         <div className="componentContainer element-10">
                           <div className="transformContainer">
-                            <img src="assets/8L9axSV.jpg" />
+                            <img src="/assets/8L9axSV.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1206,7 +1207,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-10">
                         <div className="componentContainer element-11">
                           <div className="transformContainer">
-                            <img src="assets/nV659P6.jpg" />
+                            <img src="/assets/nV659P6.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1215,7 +1216,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-11">
                         <div className="componentContainer element-12">
                           <div className="transformContainer">
-                            <img src="assets/KH1TiH0.jpg" />
+                            <img src="/assets/KH1TiH0.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1224,7 +1225,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-12">
                         <div className="componentContainer element-13">
                           <div className="transformContainer">
-                            <img src="assets/zakeAjj.jpg" />
+                            <img src="/assets/zakeAjj.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1233,7 +1234,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-13">
                         <div className="componentContainer element-14">
                           <div className="transformContainer">
-                            <img src="assets/DihBOb3.jpg" />
+                            <img src="/assets/DihBOb3.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1242,7 +1243,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-14">
                         <div className="componentContainer element-15">
                           <div className="transformContainer">
-                            <img src="assets/EM5q56V.jpg" />
+                            <img src="/assets/EM5q56V.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1251,7 +1252,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-15">
                         <div className="componentContainer element-16">
                           <div className="transformContainer">
-                            <img src="assets/8mYtM8S.jpg" />
+                            <img src="/assets/8mYtM8S.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1260,7 +1261,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-16">
                         <div className="componentContainer element-17">
                           <div className="transformContainer">
-                            <img src="assets/ikQyOXB.jpg" />
+                            <img src="/assets/ikQyOXB.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1269,7 +1270,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-17">
                         <div className="componentContainer element-18">
                           <div className="transformContainer">
-                            <img src="assets/3ITYgiM.jpg" />
+                            <img src="/assets/3ITYgiM.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1278,12 +1279,12 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-18">
                         <div className="componentContainer element-19">
                           <div className="transformContainer">
-                            <img src="assets/mnxbO8p.jpg" />
+                            <img src="/assets/mnxbO8p.jpg" />
                           </div>
                         </div>
                         <div className="componentContainer element-19-b">
                           <div className="transformContainer">
-                            <img src="assets/21vw7st.png" />
+                            <img src="/assets/21vw7st.png" />
                           </div>
                         </div>
                       </div>
@@ -1292,7 +1293,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-19">
                         <div className="componentContainer element-20">
                           <div className="transformContainer">
-                            <img src="assets/8Afxsji.jpg" />
+                            <img src="/assets/8Afxsji.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1301,7 +1302,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-20">
                         <div className="componentContainer element-21">
                           <div className="transformContainer">
-                            <img src="assets/ienaNSt.jpg" />
+                            <img src="/assets/ienaNSt.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1310,7 +1311,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-21">
                         <div className="componentContainer element-22">
                           <div className="transformContainer">
-                            <img src="assets/zMbsd1s.jpg" />
+                            <img src="/assets/zMbsd1s.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1319,7 +1320,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-22">
                         <div className="componentContainer element-23">
                           <div className="transformContainer">
-                            <img src="assets/25nQkCX.jpg" />
+                            <img src="/assets/25nQkCX.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1328,7 +1329,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-23">
                         <div className="componentContainer element-24">
                           <div className="transformContainer">
-                            <img src="assets/g2YSTXw.png" />
+                            <img src="/assets/g2YSTXw.png" />
                           </div>
                         </div>
                       </div>
@@ -1337,7 +1338,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-24">
                         <div className="componentContainer element-25">
                           <div className="transformContainer">
-                            <img src="assets/WzBzrKe.jpg" />
+                            <img src="/assets/WzBzrKe.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1346,7 +1347,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-25">
                         <div className="componentContainer element-26">
                           <div className="transformContainer">
-                            <img src="assets/tTSRpHm.jpg" />
+                            <img src="/assets/tTSRpHm.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1355,7 +1356,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-26">
                         <div className="componentContainer element-27">
                           <div className="transformContainer">
-                            <img src="assets/2FV3Ssg.jpg" />
+                            <img src="/assets/2FV3Ssg.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1364,7 +1365,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-27">
                         <div className="componentContainer element-28">
                           <div className="transformContainer">
-                            <img src="assets/XbmPvZl.jpg" />
+                            <img src="/assets/XbmPvZl.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1373,7 +1374,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-28">
                         <div className="componentContainer element-29">
                           <div className="transformContainer">
-                            <img src="assets/X5gK1Kn.jpg" />
+                            <img src="/assets/X5gK1Kn.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1382,7 +1383,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-29">
                         <div className="componentContainer element-30">
                           <div className="transformContainer">
-                            <img src="assets/Da2YLgI.jpg" />
+                            <img src="/assets/Da2YLgI.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1391,7 +1392,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-30">
                         <div className="componentContainer element-31">
                           <div className="transformContainer">
-                            <img src="assets/vcBIUre.jpg" />
+                            <img src="/assets/vcBIUre.jpg" />
                           </div>
                         </div>
                       </div>
@@ -1400,7 +1401,7 @@ export default class AnimatedKal extends React.Component {
                       <div className=" slideContainer strut-slide-31">
                         <div className="componentContainer element-32">
                           <div className="transformContainer">
-                            <img src="assets/RNpfaVb.jpg" />
+                            <img src="/assets/RNpfaVb.jpg" />
                           </div>
                         </div>
                       </div>
