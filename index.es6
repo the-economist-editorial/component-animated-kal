@@ -383,8 +383,8 @@ export default class AnimatedKal extends React.Component {
                   document.documentElement.style.height = "100%";
                   
                   css(body, {
-                      height: "100%",
-                      overflow: "hidden"
+                      // height: "100%",
+                      // overflow: "hidden"
                   });
                   
                   var rootStyles = {
@@ -1074,8 +1074,15 @@ export default class AnimatedKal extends React.Component {
       ready(function() {
         var match = navigator.userAgent.match(/(?:MSIE |Trident\/.*; rv:)(\d+)/);
         if (match){
+          var bodyclass=document.createAttribute("class");
+          bodyclass.value="isIE";
+          document.getElementsByTagName("body")[0].setAttributeNode(bodyclass);
         var matchVersion = parseInt(match[1]);
-        // console.log(matchVersion);
+        console.log(matchVersion);
+      }else{
+        var bodyclass=document.createAttribute("class");
+          bodyclass.value="showAnim";
+          document.getElementsByTagName("body")[0].setAttributeNode(bodyclass);
       }
 
 
@@ -1100,7 +1107,7 @@ export default class AnimatedKal extends React.Component {
 
   render() {
      return(
-          <div>
+          <div className="animator">
             <div className="fallback-message">
               <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
               <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
